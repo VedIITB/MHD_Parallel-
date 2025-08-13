@@ -7,7 +7,7 @@
 #define  B                    1.0
 
 #define  mu                   1
-#define  ghost                6
+#define  ghost                2
 
 #define  xcells              200
 #define  xpoints               xcells + ghost+1
@@ -154,4 +154,5 @@ waves        w;
 
 
  #endif
+
 
