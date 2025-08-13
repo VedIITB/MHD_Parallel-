@@ -1074,7 +1074,7 @@ for(i=st; i<=stp; i++)
             {
 
 
-                if(i==stp) {
+                if(i==stp && j<=xcells/2) {
                  cout<<"==============================================================================="<<endl;
                  cout<<"EVOLVING FOR TIME :: "<<t<<endl;
                  cout<<"DENSITY = "<<q.rho[i][j]<<"\n";
