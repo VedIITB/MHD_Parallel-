@@ -203,9 +203,9 @@ if(prcs!=0){
    t2 = clock();   	 
  
   MPI_Barrier( MPI_COMM_WORLD);
-  // cout<<"THE END OF THE PROGRAMME IN =\t"<<(t2-t1)/CLOCKS_PER_SEC<<"\tsecs"<<endl;
+   cout<<"THE END OF THE PROGRAMME IN =\t"<<(t2-t1)/CLOCKS_PER_SEC<<"\tsecs"<<endl;
 
-/*
+
    for(i=st; i<=stp; i++)
     {
 
@@ -220,12 +220,12 @@ if(prcs!=0){
     
    }
 
- */
+ 
  
 if(prcs==0){
 
- //  cout<<"WRITING FILES....\n"<<endl;
-  // output();
+   cout<<"WRITING FILES....\n"<<endl;
+   output();
    cout<<"THE END OF THE PROGRAMME IN =\t"<<(t2-t1)/CLOCKS_PER_SEC<<"\tsecs"<<endl;
 	  
    }
